@@ -25,7 +25,6 @@ function App() {
 
         <Route path="/login" element={currentUser ? <Navigate to="/dashboard" replace /> : <LoginPage />} />
 
-        <Route path="/signup" element={currentUser ? <Navigate to="/dashboard" replace /> : <SignupPage />} />
 
         <Route path="/dashboard" element={
           <ProtectedRoute >

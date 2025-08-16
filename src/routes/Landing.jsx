@@ -21,7 +21,7 @@ function LandingPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
           <Link
-          to="/signup"
+          to="/login"
           
           className="bg-green-500 text-gray-900 font-bold py-4 px-10 rounded-lg text-xl hover:bg-green-600 transition-colors duration-300 shadow-lg flex items-center justify-center"
         >
@@ -72,7 +72,7 @@ function LandingPage() {
             Join thousands of satisfied users who trust us with their financial journey. It's free to get started!
           </p>
           <Link
-          to="/signup"
+          to="/login"
           
           className="bg-green-500 text-gray-900 font-bold py-4 px-10 rounded-lg text-xl hover:bg-green-600 transition-colors duration-300 shadow-lg flex items-center justify-center"
         >
